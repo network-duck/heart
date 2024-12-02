@@ -24,8 +24,8 @@ function calculateY(x, k) {
 
 // Animation variables
 let k = 0.0; // Start value of k
-const kMax = 100.0; // End value of k
-const duration = 8000; // Duration in milliseconds
+const kMax = 50.0; // End value of k
+const duration = 5000; // Duration in milliseconds
 const fps = 60; // Frames per second
 const step = (kMax - k) / (duration / 1000 * fps);
 
